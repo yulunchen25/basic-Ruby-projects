@@ -34,6 +34,8 @@ class Game
     puts "Player #{@current_player.number} has won!"
   end
 
+  private
+
   def switch_players
     @current_player == @player_one ? @player_two : @player_one
   end
